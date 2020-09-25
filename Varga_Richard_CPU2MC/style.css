@@ -1,0 +1,194 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0 0 50px 0;
+    margin: 0;
+    background-color: gray;
+    background-size: 100% 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1em;
+}
+
+.ui {
+    width: 602px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.ui h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    padding: 20px 0 10px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ui p {
+    float: left;
+    background: rgba(0,0,0,0.20);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 5px 0 0;
+    font-size: 1em;
+    line-height: 1;
+    width: 177px;
+    color: #fff;
+}
+
+.ui p#bestCombo {
+    float: right;
+    margin-right: 0;
+}
+
+.ui p span {
+    font-weight: bold;
+}
+
+.message {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px rgba(0,0,0,0.25);
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    height: 200px;
+    width: 500px;
+    padding: 30px 0;
+    margin: 0 0 0 -250px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+}
+
+.message h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.message ul,
+.message li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.message button {
+    display: block;
+    font-size: 1em;
+    padding: 20px;
+    border: none;
+    background: #ccc;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message .twelve {
+    background-color: #E81C36;
+}
+.message .sixteen {
+    background-color: #E1133D;
+}
+
+.message .ten {
+    background-color: #FFC300;
+}
+
+.message .eight {
+    background-color: #25CF6B;
+}
+
+.message .six {
+    background-color: #2868C7;
+}
+
+.message .four {
+    background-color: #8F2BB3;
+}
+
+
+
+#game {
+    height: 600px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#game .row {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#game .row.glow {
+    z-index: 1;
+    box-shadow: inset 0 0 10px 10px rgba(255,255,255,1);
+}
+
+#game .row.type-1 {
+    background-image: url("candy1.png");
+}
+
+#game .row.type-2 {
+    background-image: url("candy2.png");
+}
+
+#game .row.type-3 {
+    background-image: url("candy3.png");
+}
+
+#game .row.type-4 {
+    background-image: url("candy4.png");
+}
+
+#game .row.type-5 {
+    background-image: url("candy5.png");
+}
+
+#game .row.type-6 {
+    background-image: url("candy6.png");
+}
+#game .row.type-7 {
+    background-image: url("joker.png");
+}
+
+
+#list {
+    left: 0;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+#top_list {
+    width: 300px;
+    height: 500px;
+    border-left: 3px solid black;
+    position: absolute;
+    background-color: lightgray;
+    top: 50px;
+    left: 80%;
+}
+
+.music {
+    position: absolute;
+    top: 50px;
+}

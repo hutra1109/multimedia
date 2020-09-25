@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cand crush</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+
+</head>
+<body>
+<div class="music">
+<h2>Sound Information</h2>
+<div id="length">Duration:</div>
+<div id="source">Source:</div>
+<div id="status" style="color:red;">Status: Loading</div>
+<hr>
+<h2>Control Buttons</h2>
+<button id="play">Play</button>
+<button id="pause">Pause</button>
+<button id="restart">Restart</button>
+<hr>
+<h2>Playing Information</h2>
+<div id="currentTime">0</div>
+</div>
+<div class="ui" id="ui">
+    <h1>Candy crush</h1>
+    <p id="score">Score: <span class="score">0</span></p>
+    <p id="combo">Combo: <span class="combo">0</span></p>
+    <p id="bestCombo">Best Combo: <span class="bestCombo">0</span></p>
+</div>
+
+<div class="message">
+    <h2>How many rows ?</h2>
+    <ul>
+        <li><button class="four" value="4">4*4</button></li>
+        <li><button class="six" value="6">6*6</button></li>
+        <li><button class="eight" value="8">8*8</button></li>
+        <li><button class="ten" value="10">10*10</button></li>
+        <li><button class="twelve" value="12">12*12</button></li>
+        <li><button class="sixteen" value="7">Easier</button></li>
+    </ul>
+</div>
+
+<div id="game"></div>
+<div id="top_list">
+    <div id="time_div">Maradék idő: <span id="time"></span></div>
+    <h3 style="text-align: center; padding-bottom: 5px">10-es toplista</h3>
+    <p id="list"></p>
+</div>
+<script src="jquery.min.js"></script>
+<script src="hammer.min.js"></script>
+<script src="jquery.hammer-full.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
